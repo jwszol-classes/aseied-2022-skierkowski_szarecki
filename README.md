@@ -144,13 +144,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Downloading dataset from bucket & Creating PySpark Dataframe
-- [ ] Sorting tiles in Dataframe
-- [ ] Changing the color scale of downloaded tiles
-- [ ] Calculating gradient for each tile
-- [ ] Grouping tiles for 6 height growth groups 
-- [ ] Combination of all tiles
-- [ ] Coloring and presenting North and South America
+- [x] Downloading dataset from bucket & Creating PySpark Dataframe
+- [x] Sorting tiles in Dataframe
+- [x] Changing the color scale of downloaded tiles
+- [x] Calculating gradient for each tile
+- [x] Grouping tiles for 6 height growth groups 
+- [x] Combination of all tiles
+- [x] Coloring and presenting North and South America
 
 See the [open issues](https://github.com/jwszol-classes/aseied-2022-skierkowski_szarecki/issues) for a full list of proposed features (and known issues).
 
@@ -201,9 +201,9 @@ Project Link: [https://github.com/jwszol-classes/aseied-2022-skierkowski_szareck
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* https://spark.apache.org/docs/latest/api/python/reference/ 
+* https://sparkbyexamples.com/pyspark/
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
