@@ -78,6 +78,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+
+psum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -141,10 +144,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Downloading dataset from bucket & Creating PySpark Dataframe
+- [ ] Sorting tiles in Dataframe
+- [ ] Changing the color scale of downloaded tiles
+- [ ] Calculating gradient for each tile
+- [ ] Grouping tiles for 6 height growth groups 
+- [ ] Combination of all tiles
+- [ ] Coloring and presenting North and South America
 
 See the [open issues](https://github.com/jwszol-classes/aseied-2022-skierkowski_szarecki/issues) for a full list of proposed features (and known issues).
 
@@ -182,7 +188,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Names:
+* Lukasz Szarecki
+* Marcel Skierkowski
 
 Project Link: [https://github.com/jwszol-classes/aseied-2022-skierkowski_szarecki](https://github.com/jwszol-classes/aseied-2022-skierkowski_szarecki)
 
@@ -216,5 +224,5 @@ Project Link: [https://github.com/jwszol-classes/aseied-2022-skierkowski_szareck
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
 [Python.png]: https://www.python.org/static/community_logos/python-powered-w-100x40.png
-[Pyspark.png]: https://alansimpson.me/python/cheatsheets/pysparkrdd/pysparkrdd256.jpg
-[AWS.png]: https://cdn.iconscout.com/icon/free/png-256/aws-3215369-2673787.png
+[Pyspark.png]: images/pyspark.png
+[AWS.png]: images/aws.png
