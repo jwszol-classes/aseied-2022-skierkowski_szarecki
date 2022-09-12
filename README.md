@@ -84,9 +84,9 @@
 
 ### Built With
 
-* [![Python3][Python.png]
-* [![Pyspark][Pyspark.png]
-* [![AWS][AWS.png]
+* ![Python3][Python.png]
+* ![Pyspark][Pyspark.png]
+* ![AWS][AWS.png]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
