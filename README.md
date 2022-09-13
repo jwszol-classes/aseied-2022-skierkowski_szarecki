@@ -77,27 +77,37 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+### Purpose
+Analyze the data containing information on elevation variation by selecting groups of areas with the highest growth (continental North and South America). Elevation growth in a given location should be measured from at least 10 measurement points. Determine 6 groups of areas in relation to the average value of height increase. Please plot the detected areas on the map.
 
-
-psum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-### Built With
+#### Built With
 
 * ![Python3][Python.png]
 * ![Pyspark][Pyspark.png]
 * ![AWS][AWS.png]
 
+### Technologies
+The project site is an AWS cloud environment. 
+We defined the following technology requirements on this environment:
+* S3 cloud storage - source data ```s3://elevation-tiles-prod/```
+* Cluster hardware configuration - m5.xlarge
+* Cluster software configuration - JupyterEnterpriseGateway 2.1.0, Spark 2.4.8, Livy 0.7.1
+* One node EMR cluster on AWS - EMR 5.36.0
+### Dataset
+In this project we used terrain-tiles dataset that is available via AWS resources.
+It is a global dataset providing bare-earth terrain heights, tiled for easy usage and provided on S3.
+Link to source dataset: </br>
+[https://registry.opendata.aws/terrain-tiles/](https://registry.opendata.aws/terrain-tiles/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
+---
 <!-- GETTING STARTED -->
-## Getting Started
+## Our solution
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
@@ -128,10 +138,9 @@ This is an example of how to list things you need to use the software and how to
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
+## Results
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
@@ -140,7 +149,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
+---
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -156,34 +165,12 @@ See the [open issues](https://github.com/jwszol-classes/aseied-2022-skierkowski_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -198,8 +185,8 @@ Project Link: [https://github.com/jwszol-classes/aseied-2022-skierkowski_szareck
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- Links -->
+## Links
 
 * https://spark.apache.org/docs/latest/api/python/reference/ 
 * https://sparkbyexamples.com/pyspark/
