@@ -166,6 +166,7 @@ windmill                   1.6
   ```
 2. Adding an index column built on x and y values to sort the data
 * `to_idx()` function takes x value from image.origin column which contains the paths to the tiles
+
     ```angular2html
     ...
     input_data2 = input_data2.withColumn("idx", new_idx("origin"))
@@ -175,6 +176,7 @@ windmill                   1.6
 3. Calculating height in all tiles
 * `.rdd` converts PySpark Dataframe to RDD. It enables several needed  transformations.
 * `get_height()` function counts height using BGR values. The function used this equation: 
+
     ```angular2html
     images = images.rdd.map(lambda img: np.reshape(img, (256,256,3))) #images<dateframe> to images<rdd>
     images = images.map(get_height)
@@ -184,6 +186,7 @@ windmill                   1.6
 * `gx` computed horizontal change 
 * `gy` computed vertical change 
 * `combined` it's gradient magnitude, used to measure how strong the change in image intensity is.
+
     ```angular2html
     gX = images.map(lambda img: cv2.Sobel(img, cv2.CV_64F, 1, 0))
     gY = images.map(lambda img: cv2.Sobel(img, cv2.CV_64F, 0, 1))
@@ -191,17 +194,20 @@ windmill                   1.6
     combined = np.sqrt(gx**2 + gy**2)
     ```
 5. Determining of 6 groups of areas in relation to the average value of height increase
-* `create_groups()` function calculates the average for each tile and sorts these values ascendingly. On this basis, it determines 6 groups. 
+* `create_groups()` function calculates the average for each tile and sorts these values ascendingly. On this basis, it determines 6 groups.
+
     ```angular2html
        groups = create_groups(combined)
     ```
 6. Coloring tiles
 * `paint()` function process tiles in rdd and colors tiles according to its group membership
+
     ```angular2html
     painted = paint(combined, groups)
     ```
 7. Combining tiles into one map and plotting image
 * `plot_map()` function concatenates tiles to one big map represented as numpy nd.array
+
    ```angular2html
      plot_map(painted, x_interval, y_interval)
     ```
