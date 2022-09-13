@@ -18,10 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -54,22 +50,25 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#built-with">Built with</a></li>
+        <li><a href="#technologies">Technologies</a></li>
+        <li><a href="#dataset">Dataset</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#solution">Solution</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installed-python-packages-on-pySpark-kernel">Installed python packages on PySpark Kernel</a></li>
+        <li><a href="#steps-with-code-example">Steps with code example</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#results">Results</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#links">Links</a></li>
   </ol>
 </details>
 
@@ -83,7 +82,7 @@ Analyze the data containing information on elevation variation by selecting grou
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#### Built With
+### Built With
 
 * ![Python3][Python.png]
 * ![Pyspark][Pyspark.png]
@@ -152,7 +151,7 @@ wheel                      0.29.0
 windmill                   1.6
 ```
 
-### Steps with code example:
+### Steps with code example
 1. Getting dataset
 
 * `tiles_url()` function  creates a list of all the tiles needed to be downloaded based on 2 longitude values and 2 latitude values
