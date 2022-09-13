@@ -109,7 +109,7 @@ Link to source dataset: </br>
 <!-- GETTING STARTED -->
 ## Solution
 We solved the problem defined in this project using jupyter notebook and PySpark kernel. The main difficulty of this topic was to count the speed of growth. We used a gradient for this. 
-Below we will present the more important parts of the notebook.
+Below we will present the more important parts of the code.
 ### Installed python packages on PySpark Kernel
 ```Package                    Version
 -------------------------- ----------
