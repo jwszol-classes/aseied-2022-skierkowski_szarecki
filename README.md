@@ -230,9 +230,15 @@ windmill                   1.6
 
 ## Results
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+###Time results
+* AWS cluster - 
+###Set parameters
+* zoom - 
+* latitudes - 
+* longitudes - 
+* num of tilse - 
+###Charted map
+<img src="/images/result_map1.png" alt="Result map" title="North and South America">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
