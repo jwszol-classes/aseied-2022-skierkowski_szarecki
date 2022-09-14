@@ -230,14 +230,14 @@ windmill                   1.6
 
 ## Results
 
-###Time results
+### Time results
 * AWS cluster - 
-###Set parameters
+### Set parameters
 * zoom - 
 * latitudes - 
 * longitudes - 
 * num of tilse - 
-###Charted map
+### Charted map
 <img src="/images/result_map1.png" alt="Result map" title="North and South America">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
