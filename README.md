@@ -238,6 +238,7 @@ windmill                   1.6
 * latitudes - 72.0 ( -- ) -54.0
 * longitudes - -168.0 ( | ) -25.0 
 * num of tilse - 208
+* kernel - PySpark
 ### Charted map
 <img src="/images/result_map1.png" alt="Result map" title="North and South America">
 
