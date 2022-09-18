@@ -174,7 +174,8 @@ windmill                   1.6
     ```
 3. Calculating height in all tiles
 * `.rdd` converts PySpark Dataframe to RDD. It enables several needed  transformations.
-* `get_height()` function counts height using BGR values. The function used this equation: 
+* `get_height()` function counts height using BGR values. The function used this equation: </br>
+(R * 256.0 + G + B/256.0) - 32768.0 
 
     ```angular2html
     images = images.rdd.map(lambda img: np.reshape(img, (256,256,3))) #images<dateframe> to images<rdd>
@@ -231,12 +232,12 @@ windmill                   1.6
 ## Results
 
 ### Time results
-* AWS cluster - 
+* AWS cluster - 29.6429545 [s]
 ### Set parameters
-* zoom - 
-* latitudes - 
-* longitudes - 
-* num of tilse - 
+* zoom - 5
+* latitudes - 72.0 ( -- ) -54.0
+* longitudes - -168.0 ( | ) -25.0 
+* num of tilse - 208
 ### Charted map
 <img src="/images/result_map1.png" alt="Result map" title="North and South America">
 
