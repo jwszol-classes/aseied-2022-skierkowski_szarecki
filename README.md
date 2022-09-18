@@ -232,7 +232,7 @@ windmill                   1.6
 ## Results
 
 ### Time results
-* AWS cluster - 29.6429545 [s]
+* AWS cluster - 11.09018 [s] (average for 10 measurements)
 ### Set parameters
 * zoom - 5
 * latitudes - 72.0 ( -- ) -54.0
