@@ -233,7 +233,7 @@ windmill                   1.6
 
 ### Time results
 1. AWS cluster - 11.09018 [s] (average for 10 measurements)
-2. 2.843012 [s] (average for 10 measurements)
+2. AWS cluster - 2.843012 [s] (average for 10 measurements)
 ### Set parameters
 1. Measurement
 * zoom - 5
