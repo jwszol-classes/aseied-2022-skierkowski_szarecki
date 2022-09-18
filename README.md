@@ -232,12 +232,20 @@ windmill                   1.6
 ## Results
 
 ### Time results
-* AWS cluster - 11.09018 [s] (average for 10 measurements)
+1. AWS cluster - 11.09018 [s] (average for 10 measurements)
+2. 2.843012 [s] (average for 10 measurements)
 ### Set parameters
+1. Measurement
 * zoom - 5
 * latitudes - 72.0 ( -- ) -54.0
 * longitudes - -168.0 ( | ) -25.0 
 * num of tilse - 208
+* kernel - PySpark
+2. Measurement
+* zoom - 3
+* latitudes - 72.0 ( -- ) -54.0
+* longitudes - -168.0 ( | ) -25.0 
+* num of tilse - 20
 * kernel - PySpark
 ### Charted map
 <img src="/images/result_map1.png" alt="Result map" title="North and South America">
